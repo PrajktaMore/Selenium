@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suit name="TestNGListenerSuite">
+
+	<listeners>
+
+		<listener class-name="TestNgListenersReport.Listeners" />
+
+	</listeners>
+
+	<test name="LoginTest">
+		<classes>
+			<class name="TestNgListenersReport.LoginTest">
+				<methods>
+					<include name="LoginByEmail" />
+					<include name="LoginByFacebook" />
+<!-- 					<exclude name="LoginByFacebook" /> -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suit>
