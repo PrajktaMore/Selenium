@@ -26,7 +26,7 @@ public class OrderedList {
 		
 		Actions act=new Actions(d1);
 		
-		act.keyDown(Keys.CONTROL)//CONTROL Key remains pressed bcoz of this to select multiple elemnts
+		act.keyDown(Keys.CONTROL)//CONTROL Key remains pressed to select multiple elemnts
 		.click(ele.get(0))
 		.click(ele.get(2))
 		.click(ele.get(4))
